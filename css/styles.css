@@ -1,0 +1,334 @@
+/* 
+ css/styles.css 
+ Student Name: ibrahim mohammad obaied
+ Student Id: 12428162
+*/
+
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #216869;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+}
+
+.site{
+      font-size: 20px;
+      font-weight: 900;
+      
+       display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  flex-wrap: wrap;
+}
+.logo {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color:#216869;
+  margin: 6px;
+}
+.links {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.links a {
+  text-decoration: none;
+  color:#216869;
+  font-weight: 500;
+}
+/*************************************************/
+.photo {
+  position: relative;
+  height: 617px;
+  background-image: url('../imges/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+
+.bott , .bott2{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.bott2 {
+  top: 30%; 
+}
+
+
+.bott {
+  top: 67%; 
+}
+
+.b {
+  background-color:#216869;
+  color: white;
+  font-weight: 600;
+  padding: 14px 15px;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+}
+.bu{
+    background-color:#49a078;
+     color: white;
+  font-weight: 600;
+  padding: 2px 4px;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.write {
+  position: relative;
+  bottom: -251px;
+  white-space: nowrap;
+  color:#ffffff;
+  margin: 10px;
+  font-size: 40px;
+   
+}
+.write1 {
+  position: relative;
+  bottom: -251px;
+  white-space: nowrap;
+  color:#ffffff;
+  margin: 10px;
+      font-weight: 400;
+    font-size: 17px;
+   
+}
+/********************************************************/
+.box {
+  height: 295px;
+  width: 500px;
+  background-color:white;
+  border-radius: 16px;
+  margin: 35px 38px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.ib{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-right: 0; 
+}
+.a,.c{
+
+  margin: 10px;
+}
+
+
+.tag {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.tag:hover {
+  background-color: #f5f5f5;
+  border-color: #999;
+}
+
+/******************************************************************/
+.title {
+  
+  padding-left: 55px;
+}
+
+.nn {
+  height: 360px;
+  width: 340px;
+  background-color:white;
+  border-radius: 16px;
+  margin: 35px 10px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.q {
+ margin-bottom: 14px;
+    margin-top: 0px;
+}
+
+.c,.v{
+   color: rgba(0, 0, 0, 0.603);
+  border-bottom: 2px #0000004d;
+  padding-bottom: 16px;
+  margin-top: 0;
+}
+.l {
+  color: #216869;
+  display: block;
+  text-align: right;
+  position: relative;
+  top: -80px;
+}
+.cont{
+   display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-right: 0; 
+}
+
+.write2{
+   position: relative;
+  left: 220px;
+  margin-top: -50px;
+  
+     color: rgba(0, 0, 0, 0.603);
+  
+}
+.ll{
+   color:#333;
+  display: block;
+  text-align: right;
+  position: relative;
+  top: -64px;
+}
+.ccc{
+   color:#333;
+  border-bottom: 2px dashed #0000004d;
+  padding-bottom: 16px;
+  margin-top: -22px;
+}
+.cc{
+    color:#33333399;
+  border-bottom: 2px dashed #0000004d;
+  padding-bottom: 16px;
+  margin-top: -22px;
+}
+.box1 {
+  height: 320px;
+  width: 500px;
+  background-color:white;
+  border-radius: 16px;
+  margin: 35px 38px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.image2 {
+  height: 292px;
+  background-image: url('../imges/map.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.finsh{
+  text-align: center;
+}
+.head{
+      position: relative;
+    left: 156px;
+}
+
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.butt3{
+
+    position: relative;
+  height: 70px; 
+  background:#faf7f2;
+}
+.gh{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#333;
+ font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .box, .nn {
+    width: 82%;
+    height: auto;
+  }
+
+  .site {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .bott, .bott2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .l {
+    top: -82px; 
+  }
+  .head{
+      position: relative;
+    left: 26px;
+}
+.bott2 {
+  top: 20%; 
+}
+.write {
+  position: relative;
+  bottom: -251px;
+  white-space: nowrap;
+  color:#ffffff;
+  margin: 10px;
+  
+}
+.write1 {
+  position: relative;
+  bottom: -251px;
+  white-space: nowrap;
+  color:#ffffff;
+  margin: 10px;
+      font-weight: 900;
+    font-size: 9px;
+   
+}
+.f{
+      position: relative;
+    right: 173px;
+}
+
+}
