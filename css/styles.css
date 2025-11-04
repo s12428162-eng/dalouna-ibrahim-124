@@ -127,6 +127,17 @@ body {
   margin: 35px 38px;
   box-sizing: border-box;
   padding: 10px;
+   box-shadow: 0 4px 8px rgb(0 0 0 / 59%);
+}
+.box1 {
+  height: 320px;
+  width: 500px;
+  background-color:white;
+  border-radius: 16px;
+  margin: 35px 38px;
+  box-sizing: border-box;
+  padding: 10px;
+   box-shadow: 0 4px 8px rgb(0 0 0 / 59%);
 }
 .ib{
   display: flex;
@@ -172,6 +183,8 @@ body {
   margin: 35px 10px;
   box-sizing: border-box;
   padding: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 59%);
+
 }
 .q {
  margin-bottom: 14px;
@@ -179,7 +192,7 @@ body {
 }
 
 .c,.v{
-   color: rgba(0, 0, 0, 0.603);
+   color: #3333336f;
   border-bottom: 2px #0000004d;
   padding-bottom: 16px;
   margin-top: 0;
@@ -215,26 +228,18 @@ body {
   top: -64px;
 }
 .ccc{
-   color:#333;
-  border-bottom: 2px dashed #0000004d;
+   color:#333333;
+  border-bottom: 2px dashed #33333340;
   padding-bottom: 16px;
   margin-top: -22px;
 }
 .cc{
-    color:#33333399;
-  border-bottom: 2px dashed #0000004d;
+    color:#33333340;
+  border-bottom: 2px dashed #33333340;
   padding-bottom: 16px;
   margin-top: -22px;
 }
-.box1 {
-  height: 320px;
-  width: 500px;
-  background-color:white;
-  border-radius: 16px;
-  margin: 35px 38px;
-  box-sizing: border-box;
-  padding: 10px;
-}
+
 .image2 {
   height: 292px;
   background-image: url('../imges/map.png');
@@ -242,9 +247,24 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.fg{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
 
+}
 .finsh{
+  
   text-align: center;
+  color: #3333337e;
+  margin: 0;
+}
+.finsh2{
+ 
+  text-align: center;
+  color:#216869;
+  margin: 0;
 }
 .head{
       position: relative;
@@ -274,11 +294,22 @@ position: absolute;
   border-radius: 8px;
   font-size: 18px;
 }
+.hr{
+ border: none;
+  height: 2px;           
+  background-color:#33333340;   
+  width: 100%;  
+}
 
 @media (max-width: 768px) {
-  .box, .nn {
+   .nn {
     width: 82%;
-    height: 381;
+    height: 381px;
+  }
+  .box{
+    width: 82%;
+    height: 270px;
+
   }
 
   .site {
@@ -331,4 +362,11 @@ position: absolute;
     right: 173px;
 }
 
+}
+@media  (min-width: 1024px)  {
+  .f{
+     position: relative;
+    right: -120px;
+  }
+  
 }
