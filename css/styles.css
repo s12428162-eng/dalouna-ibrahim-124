@@ -214,7 +214,7 @@ body {
 
 .write2{
    position: relative;
-  left: 220px;
+  left: 217px;
   margin-top: -50px;
   
      color: rgba(0, 0, 0, 0.603);
@@ -308,7 +308,7 @@ position: absolute;
   }
   .box{
     width: 82%;
-    height: 270px;
+    height: 387px;
 
   }
 
@@ -360,13 +360,33 @@ position: absolute;
 .f{
       position: relative;
     right: 173px;
-}
 
 }
-@media  (min-width: 1024px)  {
+.fg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;   
+}
+
+.finsh{
+  color: #3333337e;
+  margin: 0;
+  font-size: 10px;
+}
+.finsh2{
+  color:#216869;
+  margin: 0;
+  font-size: 10px;
+}
+
+
+}
+@media  (min-width: 1024px ) and (max-width:1430px)  {
   .f{
      position: relative;
-    right: -120px;
+    right: -122px;
   }
   
 }
